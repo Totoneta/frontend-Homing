@@ -1,0 +1,67 @@
+.filtrosybtnvaciar{
+    background-color: #ffffff85;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 4rem 0 1rem 0;
+}
+
+.filtros-container {
+    display: grid;
+    width: 70%;
+    grid-template-columns: 30% 30% 30% ;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 0;
+    border: 2px solid #1dc6e4;
+    border-radius: 24px;
+    margin: 1rem;
+}
+
+.filtros-container-vacio {
+    height: 1rem;
+}
+
+.filtros-container>div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+    padding: .5rem;
+    height: 3rem;
+    border-radius: 10px;
+    background-color: #1dc6e4;
+}
+
+
+/* Btns Filtros / Buscar */
+
+.btns-filtros{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+.buscar,
+.limpiarfiltros {
+    padding: .7rem 1rem;
+    background-color: #fff;
+    color: #000;
+    border-radius: 16px;
+    border: 2px solid #1dc6e4;
+    cursor: pointer;
+    margin: 0 auto;
+    color: #1dc6e4;
+    font-weight: bold;
+    transition: all .3s;
+}
+
+.buscar:hover,
+.limpiarfiltros:hover {
+    background-color: #1dc6e4;
+    color: #fff;
+}

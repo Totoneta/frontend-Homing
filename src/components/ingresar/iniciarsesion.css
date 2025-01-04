@@ -1,0 +1,78 @@
+.iniciar-container{
+    height: 90dvh;
+    padding: 1rem;
+    background-color: #ffffff;
+    width: 70rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iniciar-sesion {
+    margin-top: 3rem;
+    border: 3px solid #fff;
+    height: 25rem;
+    width: 40rem;
+    background-color: #1dc6e4;
+    border-radius: 20px;
+    display: flex;
+    gap: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.iniciar-sesion>h3{
+    font-size: 45px;
+    color: #fff;
+}
+
+.form-ingresar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    gap: .7rem;
+}
+
+.inpt {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.inpt>input {
+    background-color: #ffffff;
+    border: 1px solid #969696;
+    padding: .2rem .3rem;
+    border-radius: 5px;
+    outline: none;
+    width: 15rem;
+}
+.inpt>label {
+    color: #fff;
+}
+
+.btn-last {
+    color: #000 ;
+    border-radius: 10px;
+    padding: .2rem 1rem;
+    background-color: #ffffff;
+    transition: all .3s;
+    border: 2px solid #1dc6e4;
+    cursor: pointer;
+    width: 10rem;
+    color: #000;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+}
+
+.btn-last:hover{
+    background-color: #1dc6e4;
+    color: #fff;
+    border: 2px solid #ffffff;
+}

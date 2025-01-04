@@ -1,0 +1,8 @@
+.listainmuebles-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1rem;
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 2rem;
+}

@@ -1,0 +1,73 @@
+/* Container */
+.container-preguntas {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: 0 auto;
+    width: 60%;
+    gap: 2rem;
+    padding: 4rem 0 2rem 0;
+}
+
+/* Preguntas Frecuentes */
+.preguntas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+.pregunta-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: .5rem;
+    border-radius: 10px;
+    border: 2px solid #1dc6e4;
+    background-color: #fcfcfc;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.pregunta-container:hover{
+    background-color: #ccf0f6;
+}
+
+
+/* Respuestas */
+.respuestas {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    text-align: left;
+    width: 100%;
+    height: 28rem;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    border: 2px solid #1dc6e4;
+    background-color: #fcfcfc;
+}
+
+.respuestas>div>h3 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 1rem;
+    color: #000000;
+    width: 90%;
+}
+
+.respuestas>div>span {
+    font-size: 17px;
+}
+
+/* Modificaciones desde jsx para ver preguntas  */
+.hidden {
+    display: none;
+}
+
+.visible {
+    display: block;
+}

@@ -1,0 +1,99 @@
+/* NavBar */
+.navbar-container {
+    position: fixed;
+    background: linear-gradient(#fff 90%, transparent);
+    width: 100%;
+    height: 3.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.navbar-container>a>img {
+    height: 3rem;
+    width: 3rem;
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.item-navbar>a {
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: all .3s;
+}
+
+.item-navbar>a:hover {
+    color: #1dc6e4;
+    border-bottom: 2px solid #1dc6e4;
+}
+
+.logo-nav-izq {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+}
+
+
+#contacto-btn {
+    color: #1dc6e4;
+    border-radius: 10px;
+    padding: .2rem 1rem;
+    background-color: #ffffff;
+    transition: all .3s;
+    border: 2px solid #1dc6e4;
+    cursor: pointer;
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+}
+
+.item-navbar>a>img {
+    height: 2rem;
+}
+
+#contacto-btn:hover {
+    background-color: #1dc6e4;
+    color: #fff;
+}
+
+.perfil-user {
+    fill: #1dc6e4;
+    transition: fill 0.3s ease;
+}
+
+#contacto-btn:hover .perfil-user {
+    fill: #fff;
+  }
+
+.cerrarsesion {
+    color: #000;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+    transition: all .3s;
+    border: none;
+    cursor: pointer;
+}
+
+.cerrarsesion:hover{
+    color: #1dc6e4;
+    border-bottom: 2px solid #1dc6e4;
+}
+/* Fín NavBar */

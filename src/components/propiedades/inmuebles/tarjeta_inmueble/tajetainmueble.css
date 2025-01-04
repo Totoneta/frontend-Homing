@@ -1,0 +1,56 @@
+.tarjeta-container{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 8px 1px #575757;
+    border-radius: 10px;
+    border: 1px solid #727272;
+    padding: 1rem;
+}
+
+.mid-tarjeta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: .5rem;
+}
+
+.precio{
+    color: #2a9c0e;
+    font-weight: bold;
+}
+
+.fin-tarjeta{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.fin-tarjeta>a,
+.fin-tarjeta>button{
+    padding: .5rem;
+    border-radius: 10px;
+    width: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #1dc6e4;
+    color: #1dc6e4;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.fin-tarjeta>a:hover,
+.fin-tarjeta>button:hover{
+    background-color: #1dc6e4;
+    color: #fff;
+}

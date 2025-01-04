@@ -1,0 +1,62 @@
+.panelprincipal-container{
+    height: 40dvh;
+    padding-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 1rem;
+    border-radius: 24px;
+}
+
+.panelp-container{
+    display: flex;
+    width: 50%;
+    justify-content: start;
+    align-items: center;
+    border: 2px solid #1dc6e4;
+    padding: 1rem;
+    border-radius: 24px;
+    gap: 2rem;
+}
+
+.panelp-container>img{
+    width: 20%;
+}
+
+.texto-perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: 70%;
+    gap: 1rem;
+}
+
+.username-perfil{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 3rem;
+}
+
+.username-perfil>a{
+    color: #1dc6e4;
+    border-radius: 10px;
+    padding: .2rem 1rem;
+    background-color: #ffffff;
+    transition: all .3s;
+    border: 2px solid #1dc6e4;
+    cursor: pointer;
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.username-perfil>a:hover {
+    background-color: #1dc6e4;
+    color: #fff;
+}

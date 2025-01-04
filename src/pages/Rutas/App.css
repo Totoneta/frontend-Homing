@@ -1,0 +1,11 @@
+/* All */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    background-color: #fff;
+}

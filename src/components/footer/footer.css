@@ -1,0 +1,29 @@
+/* Footer */
+.footer{
+    height: 10rem;
+    background-color: #000000;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    width: 30%;
+}
+
+.red {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Fín Footer */
